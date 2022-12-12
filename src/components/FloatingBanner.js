@@ -30,9 +30,6 @@ const FloatingBanner = () => {
             })}
         </div>
     </div>
-    <div className="section2">
-            <h1>hii</h1>
-    </div>
     </>
   )
 }

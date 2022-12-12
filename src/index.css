@@ -286,3 +286,9 @@ code {
 .section .floating-banner span.underline {
   text-decoration: underline;
 }
+
+.chart {
+  height: 300px;
+  width: 600px;
+  margin: 100px auto;
+}
