@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,9 +7,214 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+  font-family: 'Montserrat', sans-serif;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.main {
+  background-image: url('./images/section-main.webp');
+  background-size: cover;
+  background-position: -3.3rem 0.1px;
+  background-repeat: no-repeat;
+  background-size: 107%;
+  height: 100vh;
+}
+
+.navbar {
+  padding: 13px 105px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar .navbar_logo {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  gap: 7px;
+}
+
+.navbar .navbar_logo .logo {
+  font-size: 28px;
+  font-weight: 600;
+  color: white;
+}
+
+.navbar .navbar_logo .button {
+  border-radius: 10px;
+  padding: 3px 10px;
+  font-weight: 700;
+  font-size: 21px;
+  background-color: #00a3ff;
+  cursor: pointer;
+  color: white;
+  border: none;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.navbar .buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.navbar .buttons .get-price {
+  font-family: 'Montserrat', sans-serif;
+  color: black;
+  padding: 12px 30px;
+  background-color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 25px;
+  font-weight: 600;
+}
+
+.navbar .buttons .buy {
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  padding: 10px 30px 14px;
+  background-color: #ff007a;
+  border: none;
+  cursor: pointer;
+  border-radius: 25px;
+  font-weight: 600;
+}
+
+.navbar .buttons .buy img {
+  height: 18px;
+  margin-right: 10px;
+  position: relative;
+  top: 2px;
+}
+
+.main-banner {
+  color: white;
+  margin: 120px 50px 0 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-banner .left {
+  max-width: 55vw;
+}
+
+.main-banner .left .stat {
+  color: #5bff9d;
+  font-weight: 600;
+  font-size: 16px;
+  margin: 0 0 15px;
+}
+
+.main-banner .left .stat img {
+  height: 22px;
+  margin-right: 5px;
+  position: relative;
+  top: 5px;
+}
+
+.main-banner .left .heading {
+  font-size: 64px;
+  font-weight: 600;
+  margin: 0 0 15px;
+}
+
+.main-banner .left .tagline {
+  font-size: 24px;
+  font-weight: 500;
+  color: rgb(255, 255, 255, 0.5);
+  margin: 0 0 25px;
+}
+
+.main-banner .left .buttons {
+  margin: 40px 0 0;
+  display: flex;
+  gap: 10px;
+}
+
+.main-banner .left .buttons > * {
+  border-radius: 40px;
+  padding: 15px 0 20px;
+  width: 21vw;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.main-banner .left .buttons .buy {
+  background-color: #0066ff;
+  color: white;
+}
+
+.main-banner .left .buttons img {
+  height: 25px;
+  margin-right: 10px;
+  position: relative;
+  top: 5px;
+}
+
+.main-banner .right {
+  text-align: center;
+  display: flex;
+  max-width: 25vw;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.main-banner .right > * {
+  background-color: white;
+  border-radius: 35px;
+  padding: 25px;
+  position: relative;
+}
+
+.main-banner .right > * img {
+  height: 75px;
+}
+
+.main-banner .right > * span {
+  font-weight: 600;
+  font-size: 1.3rem;
+  padding: 0 10px;
+  border-radius: 30px;
+  position: absolute;
+  bottom: -15px;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  width: fit-content;
+}
+
+.main-banner .right .car {
+  background-color: #89d5ff4d;
+}
+
+.main-banner .right .car span {
+  background-color: #4fc1ff;
+}
+
+.main-banner .right .bike {
+  background-color: #deb5ff4d;
+}
+
+.main-banner .right .bike span {
+  background-color: #b300df;
+}
+
+.main-banner .right .van {
+  background-color: #fff3b54d;
+}
+
+.main-banner .right .van span {
+  background-color: #fbd300;
 }
