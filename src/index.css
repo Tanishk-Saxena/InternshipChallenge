@@ -22,7 +22,7 @@ code {
   background-position: -3.3rem 0.1px;
   background-repeat: no-repeat;
   background-size: 107%;
-  height: 100vh;
+  height: 760px;
 }
 
 .navbar {
@@ -30,6 +30,9 @@ code {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: sticky;
+  z-index: 1;
+  top: 0;
 }
 
 .navbar .navbar_logo {
@@ -37,6 +40,7 @@ code {
   justify-content: center;
   align-items: baseline;
   gap: 7px;
+  cursor: pointer;
 }
 
 .navbar .navbar_logo .logo {
@@ -47,11 +51,11 @@ code {
 
 .navbar .navbar_logo .button {
   border-radius: 10px;
+  cursor: pointer;
   padding: 3px 10px;
   font-weight: 700;
   font-size: 21px;
   background-color: #00a3ff;
-  cursor: pointer;
   color: white;
   border: none;
   font-family: 'Montserrat', sans-serif;
@@ -62,6 +66,16 @@ code {
   justify-content: center;
   align-items: center;
   gap: 10px;
+}
+
+.navbar .buttons > * {
+  filter: brightness(1);
+  transition: filter 0.2s ease-in-out;
+}
+
+.navbar .buttons :hover {
+  filter: brightness(0.8);
+  transition: filter 0.2s ease-in-out;
 }
 
 .navbar .buttons .get-price {
@@ -147,6 +161,13 @@ code {
   font-size: 16px;
   border: none;
   cursor: pointer;
+  filter: brightness(1);
+  transition: filter 0.2s ease-in-out;
+}
+
+.main-banner .left .buttons :hover {
+  filter: brightness(0.8);
+  transition: filter 0.2s ease-in-out;
 }
 
 .main-banner .left .buttons .buy {
@@ -217,4 +238,51 @@ code {
 
 .main-banner .right .van span {
   background-color: #fbd300;
+}
+
+.section {
+  background-color: #0085ff;
+  height: fit-content;
+  padding: 40px 0;
+}
+
+.section .floating-banner {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: white;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 70px;
+  position: relative;
+  top: -80px;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section .floating-banner > * {
+  text-align: center;
+  max-width: 20vw;
+  padding: 50px;
+}
+
+.section .floating-banner img {
+  height: 150px;
+}
+
+.section .floating-banner h1 {
+  font-size: 1.5rem;
+}
+
+.section .floating-banner span {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: rgb(0, 0, 0, 0.5);
+}
+
+.section .floating-banner span.underline {
+  text-decoration: underline;
 }

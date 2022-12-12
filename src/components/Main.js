@@ -1,5 +1,6 @@
 import React from 'react'
 import Banner from './Banner'
+import Chart from './Chart'
 import Navbar from './Navbar'
 
 const Main = () => {
@@ -7,6 +8,7 @@ const Main = () => {
     <div className='main'>
       <Navbar />
       <Banner />
+      {/* <Chart /> */}
     </div>
   )
 }

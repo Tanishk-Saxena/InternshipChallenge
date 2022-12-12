@@ -1,11 +1,11 @@
-import Card from "./components/Card";
+import FloatingBanner from "./components/FloatingBanner";
 import Main from "./components/Main";
 
 function App() {
   return (
     <div>
       <Main />
-      <Card />
+      <FloatingBanner />
     </div>
   );
 }
