@@ -5,6 +5,7 @@ import verified from '../images/verified-badge.svg';
 
 const Banner = () => {
   return (
+    <div className="main">
     <div className='main-banner'>
         <div className='left'>
             <div className='stat'>
@@ -35,6 +36,7 @@ const Banner = () => {
                 <span>2B</span>
             </div>
         </div>
+    </div>
     </div>
   )
 }

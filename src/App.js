@@ -1,11 +1,13 @@
+import Banner from "./components/Banner";
 import Chart from "./components/Chart";
 import FloatingBanner from "./components/FloatingBanner";
-import Main from "./components/Main";
+import Navbar from "./components/Navbar";
 
 function App() {
   return (
     <div>
-      <Main />
+      <Navbar />
+      <Banner />
       <FloatingBanner />
       <Chart />
     </div>
