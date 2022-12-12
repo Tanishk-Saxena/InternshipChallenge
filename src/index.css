@@ -34,6 +34,7 @@ code {
   position: fixed;
   z-index: 1;
   top: 0;
+  transition: background-color 0.2s ease-in-out;
 }
 
 .navbar .navbar_logo {
@@ -60,6 +61,7 @@ code {
   color: white;
   border: none;
   font-family: 'Montserrat', sans-serif;
+  transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
 }
 
 .navbar .buttons {
