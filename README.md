@@ -1,4 +1,10 @@
-# Getting Started with Create React App
+## Screenshots
+
+![App Screenshot](https://github.com/Tanishk-Saxena/InternshipChallenge/blob/master/Screenshots/Screenshot%20(97).png?raw=true)
+![App Screenshot](https://github.com/Tanishk-Saxena/InternshipChallenge/blob/master/Screenshots/Screenshot%20(98).png?raw=true)
+![App Screenshot](https://github.com/Tanishk-Saxena/InternshipChallenge/blob/master/Screenshots/Screenshot%20(99).png?raw=true)
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
